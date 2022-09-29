@@ -7,8 +7,10 @@ GitHub repository template for Microsoft Orleans.
 
 ## In the template
 
-- _src_: Main projects (the product code)
-- _tests_: Test projects
+- `src`: Main projects (the product code).
+  - The template starts with _Abstractions.csproj_ and the _Grains.csproj_ projects, and a placeholder for a _Silo.csproj_ app project.
+- `tests`: Test projects.
+  - The template has  _Abstractions.Tests.csproj_ and the _Grains.Tests.csproj_ test projects.
 
 ## Get started
 
