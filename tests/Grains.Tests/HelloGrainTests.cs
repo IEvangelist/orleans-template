@@ -1,11 +1,11 @@
-using Abstractions;
-
 namespace Grains.Tests;
 
+// TODO: This test project is just for template purposes.
+// Obviously customize to your liking and write real tests.
 public class HelloGrainTests
 {
     [Fact]
-    public async Task TestGreeting()
+    public async Task TestSayHello()
     {
         IHelloGrain sut = new HelloGrain();
 
