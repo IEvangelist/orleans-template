@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{90EBCE54-D353-4257-B76C-A7884766EBF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstractions", "src\Abstractions\Abstractions.csproj", "{3133B3E1-FC94-4A21-A86C-350BD9A26F07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains", "src\Grains\Grains.csproj", "{26C4265B-1640-4379-91BC-328D758801AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8496EFEC-41DE-484C-A73F-BD6295ABE2A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{278868F5-DF99-425A-9F7F-25781C31BFC7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grains.Tests", "tests\Grains.Tests\Grains.Tests.csproj", "{AF8A6D8B-15B7-47EF-8801-C8711B42C0EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3133B3E1-FC94-4A21-A86C-350BD9A26F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3133B3E1-FC94-4A21-A86C-350BD9A26F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3133B3E1-FC94-4A21-A86C-350BD9A26F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3133B3E1-FC94-4A21-A86C-350BD9A26F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C4265B-1640-4379-91BC-328D758801AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C4265B-1640-4379-91BC-328D758801AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C4265B-1640-4379-91BC-328D758801AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C4265B-1640-4379-91BC-328D758801AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8A6D8B-15B7-47EF-8801-C8711B42C0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8A6D8B-15B7-47EF-8801-C8711B42C0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8A6D8B-15B7-47EF-8801-C8711B42C0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8A6D8B-15B7-47EF-8801-C8711B42C0EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3133B3E1-FC94-4A21-A86C-350BD9A26F07} = {90EBCE54-D353-4257-B76C-A7884766EBF3}
+		{26C4265B-1640-4379-91BC-328D758801AE} = {90EBCE54-D353-4257-B76C-A7884766EBF3}
+		{AF8A6D8B-15B7-47EF-8801-C8711B42C0EB} = {8496EFEC-41DE-484C-A73F-BD6295ABE2A2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D72FA13-1509-4426-A3D6-D6C323BCC98C}
+	EndGlobalSection
+EndGlobal
